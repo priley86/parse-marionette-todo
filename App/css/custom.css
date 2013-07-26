@@ -1,0 +1,63 @@
+#appmain.filter-active #todo-list .completed {
+  display:none
+}
+#appmain.filter-completed #todo-list .active {
+  display:none
+}
+
+#main, #footer {
+  display : none;
+}
+
+#greeting {
+    color: #999999;
+}
+
+#logout {
+    color: #999999;
+}
+
+#logout:hover, #logout:focus {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.login {
+    width: 350px;
+    margin: 45px auto 25px auto;
+}
+
+.login h2 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.login input {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+    width: 340px;;
+}
+
+.login .signup-form {
+    margin-top: 25px;
+}
+
+.login button {
+    padding: 5px 10px;
+    background: #eee;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-family: "Helvetica Neue";
+}
+
+.login .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}

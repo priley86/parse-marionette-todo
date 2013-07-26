@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Backbone.Marionette & Parse • TodoMVC</title>
+
+      <!-- Styles -->
+      <link rel="stylesheet" href="App/css/bootstrap.min.css">
+      <link rel="stylesheet" href="App/css/base.css">
+      <link rel="stylesheet" href="App/css/custom.css">
+
+      <!--[if IE]>
+        <script src="App/js/lib/ie.js"></script>
+      <![endif]-->
+      <script src="http://www.parsecdn.com/js/parse-1.2.8.min.js"></script>
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="/">Todo MVC</a>
+
+                    <ul id="auth" class="nav pull-right"></ul>
+                </div>
+            </div>
+        </div>
+
+        <section id="appmain">
+        </section>
+        <footer id="info">
+          <p>Double-click to edit a todo</p>
+          <p>Created by <a href="http://patrickmriley.net">Patrick Riley</a></p>
+        </footer>
+
+        <!-- Require -->
+        <script data-main="App/js/main.js" src="Scripts/require.js"></script>
+        <script type="text/javascript">
+        		    define('globalConfig', {
+        		        apiBaseUrl: '/api/'        		       
+        		    });
+		</script>
+    </body>
+</html>
